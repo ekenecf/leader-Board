@@ -10,7 +10,7 @@ body {
   align-items: center;
 }
 
-.scoreDetails{
+.scoreDetails {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -88,28 +88,28 @@ button {
 }
 
 .renderpage:nth-child(odd) {
-    background-color: #dadada;
+  background-color: #dadada;
 }
 
 @media (max-width: 375px) {
   .mainContainer {
-        flex-direction: column;
-    }
+    flex-direction: column;
+  }
 
-    .subContainer {
-        width: 70%;
-        margin-bottom: 10%;
-    }
+  .subContainer {
+    width: 70%;
+    margin-bottom: 10%;
+  }
 
-    h2 {
-        font-size: 20px;
-    }
+  h2 {
+    font-size: 20px;
+  }
 
-    .container2 {
-        width: 70%;
-    }
+  .container2 {
+    width: 70%;
+  }
 
-    button {
-        width: 30%;
-    }
+  button {
+    width: 30%;
+  }
 }
