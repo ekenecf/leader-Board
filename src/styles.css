@@ -87,6 +87,11 @@ button {
   margin-right: 5%;
 }
 
+.renderPage {
+  list-style: none;
+  width: 100%;
+}
+
 .renderpage:nth-child(odd) {
   background-color: #dadada;
 }
@@ -97,7 +102,7 @@ button {
   }
 
   .subContainer {
-    width: 70%;
+    width: auto;
     margin-bottom: 10%;
   }
 
