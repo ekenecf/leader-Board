@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scoreDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 5%;
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: rgb(99, 72, 72);
+  font-family: 'Fredoka One', sans-serif;
+  margin-top: 2%;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: rgb(99, 72, 72);
+  font-family: 'Fredoka One', sans-serif;
+  text-align: center;
+}
+
+.subContainer {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  box-shadow: 10px 10px 10px 10px rgb(0 0 0 / 20%);
+}
+
+.container2 {
+  width: 30%;
+  box-shadow: 10px 10px 10px 10px rgb(0 0 0 / 20%);
+}
+
+.btn {
+  display: flex;
+  justify-content: end;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+#number {
+  margin-top: 2%;
+  padding: 3%;
+  border: 2px solid rgb(99, 72, 72);
+  margin-inline: 5%;
+}
+
+#name {
+  padding: 3%;
+  border: 2px solid rgb(99, 72, 72);
+  margin-inline: 5%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+small.added {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+button {
+  height: 40px;
+  width: 22%;
+  background-color: rgb(99, 72, 72);
+  color: #fff;
+  border: none;
+  margin-right: 5%;
+}
+
+.renderPage {
+  list-style: none;
+  width: 100%;
+}
+
+.renderpage:nth-child(odd) {
+  background-color: #dadada;
+}
+
+@media (max-width: 375px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+
+  .subContainer {
+    width: auto;
+    margin-bottom: 10%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .container2 {
+    width: 70%;
+  }
+
+  button {
+    width: 30%;
+  }
+}
