@@ -32,6 +32,7 @@ h2 {
   color: rgb(99, 72, 72);
   font-family: 'Fredoka One', sans-serif;
   text-align: center;
+  margin-left: 10%;
 }
 
 .subContainer {
@@ -53,6 +54,11 @@ h2 {
   justify-content: end;
   margin-top: 5%;
   margin-bottom: 10%;
+}
+
+.fa-spinner {
+  font-size: 32px;
+  animation: fa-spin 2s infinite linear;
 }
 
 #number {
@@ -81,19 +87,32 @@ small.added {
 button {
   height: 40px;
   width: 22%;
+  margin-bottom: 7%;
   background-color: rgb(99, 72, 72);
   color: #fff;
   border: none;
   margin-right: 5%;
+  cursor: pointer;
+}
+
+button:hover {
+  width: 23%;
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 .renderPage {
   list-style: none;
-  width: 100%;
+  width: 84%;
+  text-align: center;
+  word-break: break-all;
 }
 
-.renderpage:nth-child(odd) {
-  background-color: #dadada;
+.renderPage li:nth-child(odd) {
+  background-color: rgb(124, 120, 120);
 }
 
 @media (max-width: 375px) {
@@ -102,12 +121,18 @@ button {
   }
 
   .subContainer {
-    width: auto;
+    width: min-content;
     margin-bottom: 10%;
   }
 
   h2 {
     font-size: 20px;
+  }
+
+  li {
+    height: auto;
+    font-size: 22px;
+    word-break: normal;
   }
 
   .container2 {
@@ -116,5 +141,11 @@ button {
 
   button {
     width: 30%;
+    margin-bottom: 7%;
+  }
+
+  .renderPage {
+    list-style: none;
+    width: 88%;
   }
 }
