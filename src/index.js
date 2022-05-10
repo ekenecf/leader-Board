@@ -11,13 +11,9 @@ const makeScore = async () => {
   const data = await retrieveScore();
   const dataInfo = data.result;
   renderPage.innerHTML = '';
-  try {
     dataInfo.forEach((mark) => {
       renderPage.innerHTML += `<li>${mark.user}: ${mark.score}</li>`;
     });
-  } catch (err) {
-    console.log(err);
-  }
 };
 
 form.addEventListener('submit', (e) => {
