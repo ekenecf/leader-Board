@@ -8,7 +8,7 @@ The leaderboard website displays scores submitted by different players. It also 
 - Frameworks: N/A
 - Technologies used: Webpack, API
 
-### You can view it live [here](https://ekenecf.github.io/leader-Board/)
+### You can view it live [here]( https://ekenecf.github.io/leader-Board/)
 
 ### Prerequisites
 
